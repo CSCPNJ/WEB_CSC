@@ -12,7 +12,7 @@ type NavChildren = Pick<Navigation, 'title' | 'route' >
 export const EventList: NavChildren[] = [
   {
     title: "CSC Farewell 2022/2023",
-    route: "/csc-farewell-2022-2023"
+    route: "/csc-farewell-2022-2023",
   },
 ];
 
