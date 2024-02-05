@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
-import { Comfortaa, Inter, Nunito } from 'next/font/google'
+import { Comfortaa, Nunito } from 'next/font/google'
 import './globals.css'
 import dataset from '@/lib/dataset.json'
 import Header from '@/components/header/Header'
 import Navbar from '@/components/navbar/Navbar'
+import Footer from '@/components/footer/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
 const nunito = Nunito({ subsets: ['latin'] })
 const comfortaa = Comfortaa({ subsets: ['latin'] })
 
@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="id">
+    <html lang="en">
       <body className={nunito.className}>
         <header className={'bg-blue-geo-pattern'}>
           <Navbar />
@@ -36,6 +36,9 @@ export default function RootLayout({
           <div className='wrapper'>
             {children}
           </div>
+          <footer className={'bg-blue-geo-pattern'}>
+            <Footer />
+          </footer>
         </div>
       </body>
     </html>

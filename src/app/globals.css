@@ -41,11 +41,14 @@ a {
 
 .container {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: var(--bg);
   color: var(--textColor);
 }
 
 .wrapper {
+  flex-grow: 1; /* Grow to fill remaining vertical space */
   max-width: 1536px;
   margin-left: auto;
   margin-right: auto;

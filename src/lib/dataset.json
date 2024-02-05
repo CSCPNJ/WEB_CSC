@@ -5,21 +5,21 @@
 			"description": "Home Page",
 			"destination": "/"
 		},
-    {
-      "title": "Join Us",
-      "description": "Apply for CSC Membership",
-      "destination": "/join-us"
-    },
+		{
+			"title": "Join Us",
+			"description": "Apply for CSC Membership",
+			"destination": "/join-us"
+		},
 		{
 			"title": "About Us",
 			"description": "Find out more about CSC",
 			"destination": "/about"
 		},
-    {
-      "title": "Division",
-      "description": "Find out more about the various divisions of CSC",
-      "destination": "/division"
-    },
+		{
+			"title": "Division",
+			"description": "Find out more about the various divisions of CSC",
+			"destination": "/division"
+		},
 		{
 			"title": "Events",
 			"description": "Check out our past events",
@@ -31,15 +31,15 @@
 			"destination": "/projects"
 		},
 		{
-      "title": "Contact",
+			"title": "Contact",
 			"description": "Our Contact informations",
 			"destination": "/contact"
 		},
-    {
-      "title": "FAQ",
-      "description": "Frequently Asked Questions",
-      "destination": "/faq"
-    }
+		{
+			"title": "FAQ",
+			"description": "Frequently Asked Questions",
+			"destination": "/faq"
+		}
 	],
 	"metadata": [
 		"Computer Student Club",
@@ -62,5 +62,13 @@
 		"IT professionals",
 		"Student engagement",
 		"Learning resources"
-	]
+	],
+	"footer": {
+		"id": {
+			"text": "Computer Student Club (CSC) adalah sebuah Kelompok Studi Mahasiswa yang didirikan oleh para mahasiswa TIK yang berfokus pada pengembangan teknologi, khususnya di bidang keamanan jaringan, pengembangan perangkat lunak, dan pengembangan perangkat keras, dengan dukungan dari Cisco Netacad ID."
+		},
+		"en": {
+			"text": "Computer Student Club (CSC) is a Student Study Group founded by Informatics and Computer Engineering students focused on technological development, particularly in network security, software development, and hardware development, with supports from Cisco Netacad ID."
+		}
+	}
 }
