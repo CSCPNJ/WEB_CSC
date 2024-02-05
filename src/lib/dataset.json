@@ -1,0 +1,66 @@
+{
+	"navigation": [
+		{
+			"title": "Home",
+			"description": "Home Page",
+			"destination": "/"
+		},
+    {
+      "title": "Join Us",
+      "description": "Apply for CSC Membership",
+      "destination": "/join-us"
+    },
+		{
+			"title": "About Us",
+			"description": "Find out more about CSC",
+			"destination": "/about"
+		},
+    {
+      "title": "Division",
+      "description": "Find out more about the various divisions of CSC",
+      "destination": "/division"
+    },
+		{
+			"title": "Events",
+			"description": "Check out our past events",
+			"destination": "/event"
+		},
+		{
+			"title": "Projects",
+			"description": "Check out our past projects",
+			"destination": "/projects"
+		},
+		{
+      "title": "Contact",
+			"description": "Our Contact informations",
+			"destination": "/contact"
+		},
+    {
+      "title": "FAQ",
+      "description": "Frequently Asked Questions",
+      "destination": "/faq"
+    }
+	],
+	"metadata": [
+		"Computer Student Club",
+		"CSC organization",
+		"University study group",
+		"HIMATIK",
+		"Himpunan Mahasiswa TIK",
+		"Politeknik Negeri Jakarta",
+		"School of Computer and Informatics Engineering",
+		"Student organization",
+		"Technology enthusiasts",
+		"Academic community",
+		"Computer science",
+		"Informatics engineering",
+		"Student initiatives",
+		"Educational activities",
+		"Technology events",
+		"Campus community",
+		"Networking opportunities",
+		"IT professionals",
+		"Student engagement",
+		"Learning resources"
+	]
+}
