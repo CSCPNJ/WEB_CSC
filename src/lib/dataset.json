@@ -3,42 +3,83 @@
 		{
 			"title": "Home",
 			"description": "Home Page",
-			"destination": "/"
+			"route": "/"
 		},
 		{
 			"title": "Join Us",
 			"description": "Apply for CSC Membership",
-			"destination": "/join-us"
+			"route": "/join-us"
 		},
 		{
 			"title": "About Us",
 			"description": "Find out more about CSC",
-			"destination": "/about"
+			"route": "/about"
 		},
 		{
 			"title": "Division",
 			"description": "Find out more about the various divisions of CSC",
-			"destination": "/division"
+			"route": "/division",
+			"children": [
+				{
+					"title": "Cyber Security",
+					"description": "Find out more about Cyber Security",
+					"route": "/division/cyber-security"
+				},
+				{
+					"title": "Software Development",
+					"description": "Find out more about Software Development",
+					"route": "/division/softdev"
+				},
+				{
+					"title": "Explore",
+					"description": "Find out more about Explore",
+					"route": "/division/explore"
+				}
+			]
 		},
 		{
 			"title": "Events",
 			"description": "Check out our past events",
-			"destination": "/event"
+			"route": "/event",
+			"children": [
+				{
+					"title": "Internal",
+					"description": "Check out our internal events",
+					"route": "/event/internal"
+				},
+				{
+					"title": "External",
+					"description": "Check out our external events",
+					"route": "/event/external"
+				}
+			]
 		},
 		{
 			"title": "Projects",
 			"description": "Check out our past projects",
-			"destination": "/projects"
+			"route": "/projects"
 		},
 		{
 			"title": "Contact",
 			"description": "Our Contact informations",
-			"destination": "/contact"
+			"route": "/contact",
+			"children": [
+				{
+					"title": "Social Media",
+					"description": "Our Social Media informations",
+					"route": "/contact/social-media"
+				},
+				{
+					"title": "Public Relation Officers",
+					"description": "Our Public Relation Officers informations",
+					"route": "/contact/pr-info"
+				}
+			]
 		},
 		{
 			"title": "FAQ",
 			"description": "Frequently Asked Questions",
-			"destination": "/faq"
+			"route": "/faq"
 		}
 	],
 	"metadata": [
