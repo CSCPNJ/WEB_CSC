@@ -18,7 +18,7 @@
     {
       "title": "Division",
       "description": "Find out more about the various divisions of CSC",
-      "destination": "/division"
+      "route": "/division"
     },
 		{
 			"title": "Events",
@@ -62,7 +62,7 @@
     {
       "title": "FAQ",
       "description": "Frequently Asked Questions",
-      "destination": "/faq"
+      "route": "/faq"
     }
 	],
 	"metadata": [
