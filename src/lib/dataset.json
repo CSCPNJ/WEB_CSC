@@ -149,6 +149,129 @@
 					"Menjadi wadah untuk eksplorasi teknologi, pembelajaran yang mendalam, dan kolaborasi inovatif."
 				]
 			}
-		]
+		],
+		"organization": {
+			"kabinet": {
+				"name": "Twelvolution",
+				"generation": 12,
+				"period": "2023/2024"
+			},
+			"structure": {
+				"leader": [
+					{
+						"name": "Azzuri Putra Mahendra",
+						"position": "President",
+						"pict": "https://via.placeholder.com/640x360"
+					},
+					{
+						"name": "Pratama Varian Andika Parulian Siregar",
+						"position": "Vice President",
+						"pict": "https://via.placeholder.com/640x360"
+					}
+				],
+				"administration": [
+					{
+						"name": "Ummu Athiya",
+						"position": "Head of Secretary",
+						"pict": "https://via.placeholder.com/640x360"
+					},
+					{
+						"name": "Fathia Andini",
+						"position": "Secretary Staff",
+						"pict": "https://via.placeholder.com/640x360"
+					},
+					{
+						"name": "M. Adnan Fadillah",
+						"position": "Head of Public Relation",
+						"pict": "https://via.placeholder.com/640x360"
+					},
+					{
+						"name": "M. Fauzan Permana",
+						"position": "Public Relation Staff",
+						"pict": "https://via.placeholder.com/640x360"
+					},
+					{
+						"name": "Safina Ayu Rasya",
+						"position": "Head of Treasurer",
+						"pict": "https://via.placeholder.com/640x360"
+					},
+					{
+						"name": "Stephanie Meissya",
+						"position": "Treasurer Staff",
+						"pict": "https://via.placeholder.com/640x360"
+					}
+				],
+				"Creative": [
+					{
+						"name": "Raden M. Fadil Azhar",
+						"position": "Head of Creative",
+						"pict": "https://via.placeholder.com/640x360"
+					},
+					{
+						"name": "M. Ilham Sutama",
+						"position": "Creative Staff",
+						"pict": "https://via.placeholder.com/640x360"
+					},
+					{
+						"name": "M. Fathir Ikhsan",
+						"position": "Creative Staff",
+						"pict": "https://via.placeholder.com/640x360"
+					}
+				],
+				"Division": {
+					"cybersec": [
+						{
+							"name": "Sep Sarip Hidayattuloh",
+							"position": "Head of Cyber Security",
+							"pict": "https://via.placeholder.com/640x360"
+						},
+						{
+							"name": "Wahyu Priambodo",
+							"position": "Cyber Security Staff",
+							"pict": "https://via.placeholder.com/640x360"
+						},
+						{
+							"name": "Cornelius Yuli Rosdianto",
+							"position": "Cyber Security Staff",
+							"pict": "https://via.placeholder.com/640x360"
+						}
+					],
+					"softdev": [
+						{
+							"name": "M. Fadhil Dumbi",
+							"position": "Head of Software Development",
+							"pict": "https://via.placeholder.com/640x360"
+						},
+						{
+							"name": "Rayhan Safar Putra D",
+							"position": "Software Development Staff",
+							"pict": "https://via.placeholder.com/640x360"
+						},
+						{
+							"name": "Haffidz Aimar Maulana",
+							"position": "Software Development Staff",
+							"pict": "https://via.placeholder.com/640x360"
+						}
+					],
+					"explore": [
+						{
+							"name": "M. Abian Abdi Pratama",
+							"position": "Head of Explore",
+							"pict": "https://via.placeholder.com/640x360"
+						},
+						{
+							"name": "Alfarizki Nurrochman",
+							"position": "Explore Staff",
+							"pict": "https://via.placeholder.com/640x360"
+						},
+						{
+							"name": "Reishafa Armelia A",
+							"position": "Explore Staff",
+							"pict": "https://via.placeholder.com/640x360"
+						}
+					]
+				}
+			}
+		}
 	}
 }
