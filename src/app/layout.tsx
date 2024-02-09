@@ -1,13 +1,11 @@
 import type { Metadata } from 'next'
-import { Comfortaa, Nunito } from 'next/font/google'
+import { Nunito } from 'next/font/google'
 import './globals.css'
 import dataset from '@/lib/dataset.json'
-import Header from '@/components/header/Header'
 import Navbar from '@/components/navbar/Navbar'
 import Footer from '@/components/footer/Footer'
 
 const nunito = Nunito({ subsets: ['latin'] })
-const comfortaa = Comfortaa({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'CSC PNJ',
@@ -25,21 +23,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={nunito.className}>
-        <header className={'bg-blue-geo-pattern'}>
+      <body className={nunito.className + ' bg-blue-geo-pattern'}>
           <Navbar />
-          <span className={comfortaa.className}>
-            <Header />
-          </span>
-        </header>
-        <div className='container'>
-          <div className='wrapper'>
-            {children}
-          </div>
-          <footer className={'bg-blue-geo-pattern'}>
-            <Footer />
-          </footer>
-        </div>
+        {children}
+        <footer className='bg-blue-geo-pattern'>
+          <Footer />
+        </footer>
       </body>
     </html>
   )

@@ -50,12 +50,13 @@ const Navbar = () => {
 
             {/* Dropdown menu */}
             {activeButton === nav.title && nav.children && (
-              <div className="absolute right-0 mt-2 bg-blue-900 rounded-md shadow-md px-5 py-2">
+              <div className="absolute right-0 mt-2 bg-blue-geo-pattern border divide-y rounded-b-lg shadow-md">
                 {nav.children.map((child) => (
                   <div
                     key={child.title}
                     onMouseEnter={() => handleMouseEnter(nav)}
                     style={{ whiteSpace: 'nowrap' }}
+                    className='px-5 py-2'
                   >
                     <Link href={child.route}>
                       {child.title}

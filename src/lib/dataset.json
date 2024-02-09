@@ -15,11 +15,28 @@
 			"description": "Find out more about CSC",
 			"route": "/about"
 		},
-    {
-      "title": "Division",
-      "description": "Find out more about the various divisions of CSC",
-      "route": "/division"
-    },
+		{
+			"title": "Division",
+			"description": "Find out more about the various divisions of CSC",
+			"route": "/division",
+			"children": [
+				{
+					"title": "Cyber Security",
+					"description": "Find out more about the Cyber Security Division",
+					"route": "/cybersec"
+				},
+        {
+					"title": "Software Development",
+					"description": "Find out more about the Software Development Division",
+					"route": "/softdev"
+				},
+        {
+					"title": "Explore",
+					"description": "Find out more about the Explore Division",
+					"route": "/explore"
+				}
+			]
+		},
 		{
 			"title": "Events",
 			"description": "Check out our past events",
@@ -59,11 +76,11 @@
 				}
 			]
 		},
-    {
-      "title": "FAQ",
-      "description": "Frequently Asked Questions",
-      "route": "/faq"
-    }
+		{
+			"title": "FAQ",
+			"description": "Frequently Asked Questions",
+			"route": "/faq"
+		}
 	],
 	"metadata": [
 		"Computer Student Club",

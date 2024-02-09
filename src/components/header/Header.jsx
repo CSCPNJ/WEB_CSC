@@ -1,3 +1,5 @@
+"use client"
+
 import Link from 'next/link';
 import { Nunito } from 'next/font/google'
 
@@ -5,7 +7,7 @@ const nunito = Nunito({ subsets: ['latin'] })
 
 const Header = () => {
   return (
-    <div className="wrapper text-white pb-40">
+    <div className="wrapper text-white pt-20 pb-40">
       <img src="/csc-logo.png" alt="CSC Logo" width={300} className='float-right mb-3' />
       <h1 className="text-6xl pb-3 font-extrabold">Computer Student Club</h1>
       <h2 className="text-blue-500 text-2xl py-1">#Unlimited<span className='text-red-500'>Connection</span></h2>

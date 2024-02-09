@@ -2,9 +2,15 @@
 
 const AboutPage = () => {
   return (
-      <div>
-        <h1>Profile CSC</h1>
+    <>
+      <div className='container'>
+        <div className='wrapper'>
+          <h1>
+            Hello, About Page!
+          </h1>
+        </div>
       </div>
+    </>
   )
 }
 

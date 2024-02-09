@@ -4,7 +4,7 @@ import React from "react";
 import styles from "./footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import { footer, navigation } from "@/lib/dataset.json"
+import { footer } from "@/lib/dataset.json"
 
 const Footer = () => {
   const userLanguage = window.navigator.language;
@@ -20,7 +20,7 @@ const Footer = () => {
           {userLanguage == "id" ? footer.id.text : footer.en.text}
         </p>
         <span>
-          © {new Date().getFullYear()} CSC PNJ
+          ©{new Date().getFullYear()} CSC PNJ
         </span>
       </div>
       <div className={styles.links}>
