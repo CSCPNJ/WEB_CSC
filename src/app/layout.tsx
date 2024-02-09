@@ -23,10 +23,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={nunito.className + ' bg-blue-geo-pattern'}>
+      <body className={nunito.className + ' bg-blue-geo-pattern bg-contain'}>
           <Navbar />
         {children}
-        <footer className='bg-blue-geo-pattern'>
+        <footer className='bg-blue-geo-pattern bg-cover'>
           <Footer />
         </footer>
       </body>
