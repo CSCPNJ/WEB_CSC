@@ -11,7 +11,7 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 type Navigation = { title: string; route: string; children?: Navigation[] };
 
 const Navbar = () => {
-  const [activeButton, setActiveButton] = useState < string | null > (null);
+  const [activeButton, setActiveButton] = useState<string | null>(null);
   let dropdownTimeout: NodeJS.Timeout | null = null;
 
   const handleMouseEnter = (nav: Navigation) => {
@@ -45,23 +45,22 @@ const Navbar = () => {
             onMouseLeave={handleMouseLeave}
           >
             <Link key={index} href={nav.route} className={styles.link}>
-              {nav.title} {nav.children? <FontAwesomeIcon icon={faChevronDown} /> : null}
+              {nav.title} {nav.children ? <FontAwesomeIcon width={12} icon={faChevronDown} /> : null }
             </Link>
 
             {/* Dropdown menu */}
             {activeButton === nav.title && nav.children && (
-              <div className="absolute right-0 mt-2 bg-blue-geo-pattern border divide-y rounded-b-lg shadow-md">
+              <div className="absolute right-0 mt-2 bg-blue-geo-pattern border rounded-b-lg shadow-md">
                 {nav.children.map((child) => (
-                  <div
-                    key={child.title}
-                    onMouseEnter={() => handleMouseEnter(nav)}
-                    style={{ whiteSpace: 'nowrap' }}
-                    className='px-5 py-2'
-                  >
-                    <Link href={child.route}>
+                  <Link href={child.route} key={child.title}>
+                    <div
+                      onMouseEnter={() => handleMouseEnter(nav)}
+                      style={{ whiteSpace: 'nowrap' }}
+                      className='mx-5 my-2'
+                    >
                       {child.title}
-                    </Link>
-                  </div>
+                    </div>
+                  </Link>
                 ))}
               </div>
             )}

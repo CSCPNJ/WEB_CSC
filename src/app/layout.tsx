@@ -4,6 +4,7 @@ import './globals.css'
 import dataset from '@/lib/dataset.json'
 import Navbar from '@/components/navbar/Navbar'
 import Footer from '@/components/footer/Footer'
+import { height } from '@fortawesome/free-brands-svg-icons/fa42Group'
 
 const nunito = Nunito({ subsets: ['latin'] })
 

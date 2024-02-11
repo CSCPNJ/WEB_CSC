@@ -1,0 +1,10 @@
+.image {
+  float: right;
+  margin-right: 350px; /* Adjust margin as needed */;
+}
+
+@media screen and (max-width: 1024px) {
+  .image {
+    display: none;
+  }
+}

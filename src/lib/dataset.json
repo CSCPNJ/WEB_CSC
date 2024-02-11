@@ -2,83 +2,68 @@
 	"navigation": [
 		{
 			"title": "Home",
-			"description": "Home Page",
 			"route": "/"
 		},
 		{
 			"title": "Join Us",
-			"description": "Apply for CSC Membership",
 			"route": "/join-us"
 		},
 		{
 			"title": "About Us",
-			"description": "Find out more about CSC",
 			"route": "/about"
 		},
 		{
 			"title": "Division",
-			"description": "Find out more about the various divisions of CSC",
 			"route": "/division",
 			"children": [
 				{
 					"title": "Cyber Security",
-					"description": "Find out more about the Cyber Security Division",
-					"route": "/cybersec"
+					"route": "/division/cybersec"
 				},
 				{
 					"title": "Software Development",
-					"description": "Find out more about the Software Development Division",
-					"route": "/softdev"
+					"route": "/division/softdev"
 				},
 				{
 					"title": "Explore",
-					"description": "Find out more about the Explore Division",
-					"route": "/explore"
+					"route": "/division/explore"
 				}
 			]
 		},
 		{
 			"title": "Events",
-			"description": "Check out our past events",
 			"route": "/event",
 			"children": [
 				{
 					"title": "Internal",
-					"description": "Check out our internal events",
 					"route": "/event/internal"
 				},
 				{
 					"title": "External",
-					"description": "Check out our external events",
 					"route": "/event/external"
 				}
 			]
 		},
 		{
 			"title": "Projects",
-			"description": "Check out our past projects",
 			"route": "/projects"
 		},
 		{
 			"title": "Contact",
-			"description": "Our Contact informations",
 			"route": "/contact",
 			"children": [
 				{
 					"title": "Social Media",
-					"description": "Our Social Media informations",
 					"route": "/contact/social-media"
 				},
 				{
 					"title": "Public Relation Officers",
-					"description": "Our Public Relation Officers informations",
 					"route": "/contact/pr-info"
 				}
 			]
 		},
 		{
 			"title": "FAQ",
-			"description": "Frequently Asked Questions",
 			"route": "/faq"
 		}
 	],
@@ -273,5 +258,36 @@
 				}
 			}
 		}
-	}
+	},
+	"questions": [
+		{
+			"question": "Kapan Registrasi Member Baru di Buka?",
+			"answer": "Pendaftaran KSM biasanya dimulai pada semester 2, Pantau terus <a href='https://www.instagram.com/cscpnj/'>Instagram CSC</a> untuk informasi lebih lanjut"
+		},
+		{
+			"question": "Pertemuan KSM CSC Setiap Hari Apa?",
+			"answer": "Normalnya, kelas diadakan tiap hari Sabtu jam 9 sampai selesai (Sesi kelas biasanya 2-4 Jam tergantung materi). Namun, apabila ada kuliah tambahan/pengganti dari mayoritas member ataupun mentor, waktu kelas bisa disesuaikan lagi."
+		},
+		{
+			"question": "Apakah Pertemuan Kelas CSC Nantinya Bersifat Offline atau Online?",
+			"answer": "Rencana kami untuk angkatan tahun ini semua divisi dilaksanakan secara Offline, Namun masih dalam proses negosiasi dengan pihak jurusan. Akan kami beri informasi ter-update saat proposal kegiatan angkatan baru CSC sudah di approve oleh jurusan."
+		},
+		{
+			"question": "Apa Persyaratan Masuk CSC?",
+			"answer": "<ul class='list-outside list-square ml-5'><li>Memiliki kemauan untuk belajar dan mengikuti kegiatan CSC secara aktif</li><li>Memiliki laptop dengan spesifikasi minimum:<ul><li><strong>Cyber Security:</strong><ul class='list-outside list-square ml-5'><li>Prosesor 64-bit dengan dukungan virtualisasi (Intel VT-x atau AMD-V).</li><li>Minimal 4 GB RAM (disarankan 8 GB atau lebih).</li><li>Hard disk 128 GB (disarankan SSD).</li></ul></li><li><strong>SoftDev:</strong><ul class='list-outside list-square ml-5'><li>Prosesor dual-core (e.g. Intel Core i3 gen 8 or later).</li><li>Minimal 4 GB RAM (disarankan 8 GB atau lebih).</li><li>Hard disk 128 GB (disarankan SSD).</li></ul></li><li><strong>Explore:</strong><ul class='list-outside list-square ml-5'><li>Prosesor dual-core (e.g. Intel Core i3 gen 8 or later).</li><li>Minimal 4 GB RAM (disarankan 8 GB atau lebih).</li><li>Hard disk 128 GB (disarankan SSD).</li><li>Memiliki USB port.</li></ul></li></ul></li></ul><p>Spesifikasi ini hanya gambaran aja ya, kalau hardware kalian kurang memadai, nantinya akan ada keringanan dan bantuan tambahan bagi kalian supaya bisa tetep ngikutin rangkaian acara, jadi jangan takut join karna perangkat kurang memadai ya!</p>"
+		},
+		{
+			"question": "Apa Mahasiswa Jurusan Selain TIK Boleh Mendaftar Sebagai Anggota CSC?",
+			"answer": "Boleh banget! soalnya CSC akan mengajarkan konsep dasar tiap divisi secara langsung, dan mentor akan memantau progress tiap member supaya tidak tertinggal. Jadi walau kamu tidak memiliki dasar sama sekali di divisi-divisi kami, tetap bisa mengikuti kegiatan CSC"
+		},
+		{
+			"question": "Apa Perbedaan CSC dengan Sahabat PNJ? / Lebih Cocok Masuk CSC atau SPNJ Ya?",
+			"answer": "Perbedaan kami terletak pada divisi dan materi yang diajarkan. Secara garis besar kami sama sama KSM yang bertujuan untuk menjadi ruang diskusi dan meningkatkan kemampuan mahasiswa yang memiliki minat di bagian komputer. Divisi SPNJ meliputi:<ul class='list-outside list-square ml-5'><li>Web Design</li><li>Motion Graphic</li><li>Android Developer</li></ul>Untuk penjelasan lebih lanjut, kalian bisa mampir ke <a href='https://spnj.neocities.org/'>website SPNJ</a>"
+		},
+		{ "question": "Apa Boleh Join Lebih dari Satu Divisi?", "answer": "Tiap member cuman boleh join 1 divisi ya, Kalo kamu masih bimbang pengen join divisi mana, boleh konsultasi dengan kami via grup WA diskusi untuk nemuin divisi mana yang paling cocok sama kamu!" },
+		{
+			"question": "Apakah KSM (Kelompok Studi Mahasiswa) CSC ini meminta uang dari member?",
+			"answer": "Kami tidak meminta uang kas dari member baru. Jika kamu dikirimi pesan oleh member pengurus yang meminta uang dengan alasan yang tidak jelas, mohon kirimkan laporan ke admin kami via DM Instagram atau Whatsapp yang tertera pada Kontak Kami. <br/><br/>Kami hanya meminta uang saat akan mengadakan acara seperti first gathering, makrab, dll, atau saat membuat merchandise KSM. Dan itu tidak wajib bagi member baru. Hanya yang berminat saja."
+		}
+	]
 }

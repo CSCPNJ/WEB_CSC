@@ -1,4 +1,3 @@
-
 import { about } from '@/lib/dataset.json'
 import Header from './AboutHeader'
 import styles from './about.module.css'
@@ -19,7 +18,7 @@ const AboutPage = () => {
             <div>
               <h2 className='text-5xl font-semibold mb-5 text-center'>Profile CSC</h2>
               <div>
-                <img src="/laptop.webp" alt="image" width={200} className={styles.image} />
+                <img src="/laptop.webp" alt="image" width={200} className={styles.image} loading="lazy" />
                 <div>{profile.content}</div>
                 <div style={{ clear: 'both' }}></div>
               </div>
@@ -48,7 +47,7 @@ const AboutPage = () => {
           <div className='text-lg flex flex-col space-y-5 text-justify'>
             <div>
               <h2 className='text-5xl font-semibold mb-5 text-center'>Sejarah CSC</h2>
-              <img src="/book.webp" alt="image" width={200} className={styles.image} />
+              <img src="/book.webp" alt="image" width={200} className={styles.image} loading="lazy" />
               <div className='flex flex-col space-y-5 text-justify'>
                 {history.map((history, index) => (
                   <div key={index}>
@@ -77,7 +76,7 @@ const AboutPage = () => {
                 <div className='grid grid-cols-2 gap-12 text-center'>
                   {structure.leader.map((lead, index) => (
                     <div className='text-xl font-semibold flex flex-col items-center' key={index}>
-                      <img src={lead.pict} alt="pict" width={820} />
+                      <img src={lead.pict} alt="pict" width={820} loading="lazy" />
                       CSC {lead.position} <br />
                       {lead.name}
                     </div>
@@ -86,7 +85,7 @@ const AboutPage = () => {
                 <div className='grid grid-cols-2 gap-12 text-center'>
                   {structure.administration.map((admin, index) => (
                     <div className='text-xl font-semibold flex flex-col items-center' key={index}>
-                      <img src={admin.pict} alt="pict" width={360} />
+                      <img src={admin.pict} alt="pict" width={360} loading="lazy" />
                       {admin.position} <br />
                       {admin.name}
                     </div>
@@ -95,7 +94,7 @@ const AboutPage = () => {
                 <div className='grid grid-cols-3 gap-12 text-center'>
                   {structure.Creative.map((creative, index) => (
                     <div className='text-xl font-semibold flex flex-col items-center' key={index}>
-                      <img src={creative.pict} alt="pict" width={360} />
+                      <img src={creative.pict} alt="pict" width={360} loading="lazy" />
                       {creative.position} <br />
                       {creative.name}
                     </div>
@@ -104,7 +103,7 @@ const AboutPage = () => {
                 <div className='grid grid-cols-3 gap-12 text-center'>
                   {Division.cybersec.map((cybersec, index) => (
                     <div className='text-xl font-semibold flex flex-col items-center' key={index}>
-                      <img src={cybersec.pict} alt="pict" width={360} />
+                      <img src={cybersec.pict} alt="pict" width={360} loading="lazy" />
                       {cybersec.position} <br />
                       {cybersec.name}
                     </div>
@@ -113,7 +112,7 @@ const AboutPage = () => {
                 <div className='grid grid-cols-3 gap-12 text-center'>
                   {Division.softdev.map((softdev, index) => (
                     <div className='text-xl font-semibold flex flex-col items-center' key={index}>
-                      <img src={softdev.pict} alt="pict" width={360} />
+                      <img src={softdev.pict} alt="pict" width={360} loading="lazy" />
                       {softdev.position} <br />
                       {softdev.name}
                     </div>
@@ -122,7 +121,7 @@ const AboutPage = () => {
                 <div className='grid grid-cols-3 gap-12 text-center'>
                   {Division.explore.map((explore, index) => (
                     <div className='text-xl font-semibold flex flex-col items-center' key={index}>
-                      <img src={explore.pict} alt="pict" width={360} />
+                      <img src={explore.pict} alt="pict" width={360} loading="lazy" />
                       {explore.position} <br />
                       {explore.name}
                     </div>
